@@ -9,36 +9,83 @@
 
 }
 
-.banner{
-    background-image: url(../img/sky.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    color: black;
-    height: 670px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.banner-information{
-    position: relative;
-    text-align: center;
-    color: beige;
-}
-.banner-information h1{
-    font-size: 60px;
- 
-}
-
-.banner-information p{
-    font-size: 18px ;
-    margin-bottom: 150px;
-}
 
 .frame-size{
     width: 100%;
     height: 20%;
+}
+
+.head{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(48, 89, 130);
+    height: 350px;
+    padding-top: 50px;
+   
+}
+.head img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.head h1{
+    color: beige;
+    margin-top: 10px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.left{
+    background-color: rgb(232, 221, 125);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.left table{
+    width: 60%;
+    
+
+}
+.left h2{
+    margin-top: 20px;  
+}
+
+
+.right td a{
+    color: black;
+    text-decoration: none;
+}
+
+.right{
+    background-color: silver;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.right table{
+    width: 60%;
+    
+    
+}
+.right h2{
+    margin-top: 20px;
+ 
+   
+}
+
+.progress{
+    width: 150px;
+    margin-left: 15mm;
 }
 
 .foot{
