@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 .left table{
     width: 60%;
@@ -40,10 +41,10 @@
 
 }
 .left h2{
-    margin-top: 20px;
-
-  
+    margin-top: 20px;  
 }
+
+
 .right td a{
     color: black;
     text-decoration: none;
@@ -70,7 +71,7 @@
 }
 
 .progress{
-    width: 200px;
+    width: 150px;
     margin-left: 15mm;
 }
 
