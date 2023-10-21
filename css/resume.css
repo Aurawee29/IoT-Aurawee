@@ -25,7 +25,7 @@
 
 .info{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .left{
     background-color: rgb(232, 221, 125);
